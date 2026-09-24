@@ -4,7 +4,7 @@
 
 To build a scientific workflow in which an **AI agent** predicts county-level **corn yield in Iowa** from growing season weather, running on [Jetstream2](https://jetstream-cloud.org/).
 
-The agent will load the data, build weather predictors, train a **linear regression** and a **random forest**, compare them, and explain what drives yield.
+Train a **linear regression** and a **random forest**, compare them, and explain what drives yield.
 
 **Status:** planning stage. This repo currently holds the yield data
 
