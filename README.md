@@ -2,11 +2,11 @@
 
 ## The idea
 
-We plan to build a simple scientific workflow in which an **AI agent** predicts county-level **corn yield in Iowa** from growing-season weather, running on [Jetstream2](https://jetstream-cloud.org/).
+To build a scientific workflow in which an **AI agent** predicts county-level **corn yield in Iowa** from growing season weather, running on [Jetstream2](https://jetstream-cloud.org/).
 
-The agent will load the data, build weather predictors, train a **linear regression** and a **random forest**, compare them, and explain what drives yield. Participants will learn how an agent plans and carries out a scientific workflow, and how to check its results.
+The agent will load the data, build weather predictors, train a **linear regression** and a **random forest**, compare them, and explain what drives yield.
 
-**Status:** planning stage. This repo currently holds the yield data; the workflow code will be added later.
+**Status:** planning stage. This repo currently holds the yield data
 
 ## Repository contents
 
@@ -14,7 +14,7 @@ The agent will load the data, build weather predictors, train a **linear regress
 data/
 ├── raw/
 │   └── usda_nass_iowa_corn_raw.csv     # original USDA download, unchanged
-└── iowa_corn_yield_2000_2025.csv       # cleaned, ready to use
+└── iowa_corn_yield_2000_2025.csv       # cleaned
 ```
 
 ## The data
@@ -61,6 +61,3 @@ No yield values were changed, no missing years were filled in, and no unusual va
 
 USDA National Agricultural Statistics Service, Quick Stats: https://quickstats.nass.usda.gov/ (public domain). Selection: Survey → Crops → Field Crops → Corn → *CORN, GRAIN – YIELD, MEASURED IN BU / ACRE*, county level, Iowa, 2000–2025.
 
-## Contact
-
-Jasmine Sahota, HPC Collaboratory, Mississippi State University
